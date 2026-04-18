@@ -21,5 +21,24 @@ namespace test__app.Controllers
         {
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
+
+        public IActionResult About()
+        {
+            return View();
+        }
     }
 }
+
+.\repo\Views\Home\About.cshtml:
+---
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>About</title>
+</head>
+<body>
+    <h2>About Us</h2>
+    <p>This is a sample about page.</p>
+</body>
+</html>
+---
