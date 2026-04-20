@@ -26,19 +26,34 @@ namespace test__app.Controllers
         {
             return View();
         }
+
+        public IActionResult Login()
+        {
+            return View();
+        }
     }
 }
 
-.\repo\Views\Home\About.cshtml:
+.\repo\Views\Home\Login.cshtml:
 ---
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-    <title>About</title>
+    <title>Login</title>
 </head>
 <body>
-    <h2>About Us</h2>
-    <p>This is a sample about page.</p>
+    <h2>Login</h2>
+    <form method="post" action="/Home/Login">
+        <div>
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" />
+        </div>
+        <div>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" />
+        </div>
+        <button type="submit">Login</button>
+    </form>
 </body>
 </html>
 ---
