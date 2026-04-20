@@ -7,4 +7,8 @@
     <RootNamespace>test__app</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="Models\" />
+  </ItemGroup>
+
 </Project>
