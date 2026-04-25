@@ -6,3 +6,49 @@
     <h1 class="display-4">About Us</h1>
     <p>This is a sample about page.</p>
 </div>
+
+<style>
+    /* Mobile styles */
+    @media (max-width: 600px) {
+        .about-content {
+            padding: 10px;
+        }
+        .extinct-animals {
+            font-size: 14px;
+        }
+    }
+
+    /* Tablet styles */
+    @media (min-width: 601px) and (max-width: 1024px) {
+        .about-content {
+            padding: 20px;
+        }
+        .extinct-animals {
+            font-size: 16px;
+        }
+    }
+
+    /* Desktop styles */
+    @media (min-width: 1025px) {
+        .about-content {
+            padding: 30px;
+        }
+        .extinct-animals {
+            font-size: 18px;
+        }
+    }
+</style>
+
+<div class="text-center about-content">
+    <h1 class="display-4">About Us</h1>
+    <p>This is a sample about page.</p>
+    <div class="extinct-animals">
+        <h2>Extinct Animals</h2>
+        <ul>
+            <li>Tasmanian tiger (now extinct)</li>
+            <li>Passenger pigeon (now extinct)</li>
+            <li>Great Auk (now extinct)</li>
+            <li>Dodo (now extinct)</li>
+        </ul>
+    </div>
+</div>
