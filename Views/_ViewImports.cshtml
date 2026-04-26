@@ -1,3 +1,16 @@
-﻿@using test__app
-@using test__app.Models
-@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@{
+    ViewData["Title"] = "Login";
+}
+<h2>@ViewData["Title"]</h2>
+
+<form method="post" action="/Home/Login">
+    <div class="form-group">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" class="form-control" />
+    </div>
+    <button type="submit" class="btn btn-primary">Login</button>
+</form>

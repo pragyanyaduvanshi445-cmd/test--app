@@ -27,21 +27,10 @@ namespace test__app.Controllers
             return View();
         }
 
-        [HttpGet]
         public IActionResult Login()
         {
             return View();
         }
-
-        [HttpPost]
-        public IActionResult Login(LoginViewModel model)
-        {
-            if (ModelState.IsValid)
-            {
-                // Handle login logic here
-                return RedirectToAction("Index");
-            }
-            return View(model);
-        }
     }
 }
+
