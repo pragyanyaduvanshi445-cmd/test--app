@@ -1,5 +1,3 @@
-using System;
-
 namespace repo.Models
 {
     public class Product

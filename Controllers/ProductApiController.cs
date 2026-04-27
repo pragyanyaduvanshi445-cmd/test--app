@@ -25,7 +25,7 @@ namespace test__app.Controllers
 
         private void WriteProducts(List<Product> products)
         {
-            var json = JsonSerializer.Serialize(products, new JsonSerializerOptions { WriteIndented = true });
+            var json = JsonSerializer.Serialize(products);
             System.IO.File.WriteAllText(_jsonFilePath, json);
         }
 

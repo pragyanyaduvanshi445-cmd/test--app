@@ -1,20 +1,20 @@
 [
   {
     "Id": 1,
-    "Name": "Laptop",
-    "Price": 999.99,
-    "Description": "High-performance laptop for professionals."
+    "Name": "Wireless Mouse",
+    "Price": 19.99,
+    "Description": "A comfortable wireless mouse with ergonomic design."
   },
   {
     "Id": 2,
-    "Name": "Smartphone",
-    "Price": 499.50,
-    "Description": "Latest model smartphone with advanced features."
+    "Name": "Mechanical Keyboard",
+    "Price": 59.99,
+    "Description": "A durable mechanical keyboard with customizable RGB lighting."
   },
   {
     "Id": 3,
-    "Name": "Wireless Headphones",
-    "Price": 149.99,
-    "Description": "Noise-cancelling wireless headphones."
+    "Name": "HD Monitor",
+    "Price": 129.99,
+    "Description": "A 24-inch HD monitor with vibrant colors and fast response time."
   }
 ]
